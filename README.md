@@ -1,18 +1,24 @@
-Pony Puzzle – 小马谜题(AI生成)
+# Pony Puzzle – 小马谜题(AI生成)
 
-制作初衷
+## 制作初衷
 本游戏制作的初衷是因为2026年5月1日假期期间在抖音刷到消除牛牛的广告，但是不想一直看广告获得体力才突发奇想自己做一款无广告版本的。
 
-思路规划  [小马谜题小程序规划文档](https://github.com/JCCHENCZ/Pony_SuDu_Game_AI/blob/main/github/pony-puzzle-plan.md)  
+## 思路规划
+[小马谜题小程序规划文档](https://github.com/JCCHENCZ/Pony_SuDu_Game_AI/blob/main/github/pony-puzzle-plan.md)  
 
+## 游戏截图
+更多截图在ScreenShot下预览
+![游戏界面](./ScreenShot/游戏截图%20(6).jpg)
+![游戏界面](./ScreenShot/游戏截图%20(8).jpg)
 
+## 游戏介绍
 一款逻辑推理类微信小程序游戏。
 规则：每种颜色藏一匹小马，每行每列最多一匹，小马之间不能相邻（含对角）。
 交互：单击标记 ❌，双击揭晓 🐴，猜错扣心，心用完可看广告复活。
 
 本项目代码及设计文档主要借助 Trae SOLO CN + Deepseek V4 Pro 生成，本人进行集成与少量调整。
 
-当前版本状态
+## 当前版本状态
 ✅ 核心玩法可实现
 
 ✅ 体力系统、广告复活、随机难度生成已跑通,游戏未进入广告功能,可以点击即获得相关道具、能力
@@ -23,7 +29,7 @@ Pony Puzzle – 小马谜题(AI生成)
 
 ❌ 不提供后续维护与技术答疑
 
-使用说明
+## 使用说明
 下载代码，用微信开发者工具打开
 
 填入你的 AppID（测试号亦可）
